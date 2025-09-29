@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "amazon",
   "private": true,
   "version": "0.0.0",
@@ -24,5 +25,22 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
+=======
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "Amazon clone built with React and Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+>>>>>>> 59140f32fdb0959d77e8762ce9bfd274bbe61da3
   }
 }

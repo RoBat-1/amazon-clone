@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
@@ -27,3 +28,14 @@ export default defineConfig([
     },
   },
 ])
+=======
+module.exports = {
+  extends: [
+    'react-app',
+    'react-app/jest',
+  ],
+  rules: {
+    // Add custom rules here
+  },
+};
+>>>>>>> 59140f32fdb0959d77e8762ce9bfd274bbe61da3

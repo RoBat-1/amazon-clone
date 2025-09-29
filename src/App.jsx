@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 59140f32fdb0959d77e8762ce9bfd274bbe61da3
 import './App.css';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
@@ -87,6 +90,7 @@ const PRODUCTS = [
       'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80'
     ]
   },
+<<<<<<< HEAD
 ];
 
 function Home({ cartItems, setCartItems, selectedCategory, setSelectedCategory }) {
@@ -351,3 +355,6 @@ function App() {
 }
 
 export default App;
+=======
+],
+>>>>>>> 59140f32fdb0959d77e8762ce9bfd274bbe61da3
